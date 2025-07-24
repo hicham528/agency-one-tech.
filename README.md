@@ -1,38 +1,12 @@
-# 🌐 Agency One Tech
+# React + Vite
 
-**Where innovation meets design.**  
-We build sleek, responsive websites and digital tools that elevate brands across industries—from startups to established companies.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🔍 Overview
+Currently, two official plugins are available:
 
-Agency One Tech is a digital agency site showcasing our recent work, client trust, and tech capabilities. It features:
-- 🖼️ Portfolio mockups with live previews
-- 💬 Client testimonials
-- 🌟 Partner logos
-- 🚀 Interactive UI powered by MUI, Tailwind CSS, and React
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-More than 20 companies trust us to deliver design and tech with precision.
+## Expanding the ESLint configuration
 
-## 💡 Key Features
-
-- **Responsive Design**: Smooth experience across devices
-- **Modern UI**: Built with React + Tailwind CSS + MUI
-- **Dynamic Image Handling**: Optimized with Vite asset pipeline
-- **Reusable Components**: Easy-to-scale structure
-- **Clear Branding**: Highlighted services, testimonials, and partner credibility
-
-## 🛠️ Tech Stack
-
-| Tool            | Role                        |
-|-----------------|-----------------------------|
-| React           | Component-based UI          |
-| Vite            | Fast build & development    |
-| Tailwind CSS    | Utility-first styling       |
-| Material UI     | Ready-to-use interactive elements |
-| JavaScript (ES6)| Core functionality          |
-
-## 🚀 Live Preview
-
-👉 [Visit Agency One Tech](https://agency-one-tech.pages.dev)
-
-## 📂 Folder Structure
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
